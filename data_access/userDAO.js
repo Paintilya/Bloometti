@@ -18,7 +18,7 @@ class UserDAO {
     }
   }
 
-  static async findAllUsers() {
+  static async getAllUsers() {
     try {
       return await User.find({});
     } catch (error) {
@@ -29,14 +29,6 @@ class UserDAO {
   static async updateUser(discordId, newData) {
     try {
       return await User.findOneAndUpdate({ "discordId": discordId }, newData, { new: true });
-    } catch (error) {
-      throw error;
-    }
-  }
-
-  static async deleteUserByDiscordId(discordId) {
-    try {
-      return await User.findOneAndRemove({ "discordId": discordId });
     } catch (error) {
       throw error;
     }
