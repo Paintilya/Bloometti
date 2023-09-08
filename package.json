@@ -1,0 +1,19 @@
+{
+  "name": "bloometti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.0.1",
+    "@napi-rs/canvas": "^0.1.44",
+    "discord-api-types": "^0.37.56",
+    "discord.js": "^14.13.0",
+    "mongoose": "^7.5.0"
+  }
+}

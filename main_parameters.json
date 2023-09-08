@@ -1,0 +1,8 @@
+{
+    "blink": "#ff5dfd",
+    "defaultEphemeral": false,
+    "chattingExpMultiplier": 1.00,
+    "chattingExpDelayInSeconds": 60,
+    "chattingExpMinGain": 120,
+    "chattingExpMaxGain": 300
+}
